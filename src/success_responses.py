@@ -12,7 +12,7 @@ def is_success(response):
 
 def save_to_file(name, response, odir):
     with open(odir+name, 'wb') as f:
-        pickle.dump(response)
+        pickle.dump(response, f)
 
 
 def process_response(filename):
