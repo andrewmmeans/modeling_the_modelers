@@ -67,7 +67,7 @@ class CgtraderScraper():
     
 def main():
     cgscraper = CgtraderScraper()
-    print(cgscraper.categories)
+    
 
 
 if __name__ == '__main__':
