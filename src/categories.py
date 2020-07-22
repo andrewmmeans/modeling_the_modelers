@@ -82,7 +82,7 @@ if __name__ == '__main__':
             k.split('/')[-1]: [k, v] for k, v in categories_and_max_pages
         }
 
-    for category in list(category_names_and_max_pages.keys())[0:2]:
+    for category in list(category_names_and_max_pages.keys()):
         main(category)
         # cs = CategoryScraper(category)
         # cs.build_pages_to_scrape()
