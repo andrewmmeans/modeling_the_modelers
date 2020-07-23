@@ -48,10 +48,9 @@ Not everything a site displays is true, most categories contained no more than 2
 
 ![max_pages](https://github.com/andrewmmeans/modeling_the_modelers/blob/master/images/or_do_they.png?raw=true)
 
+I made the mistake of not retaining the full url when saving the individual pages and so when I attempted to retry all status code 503s the urls were not valid. I adjusted the script and now the process will keep the full data in the case a retry is necessary.
 
 *If you fail to except, try try again.*
-
-I made the mistake of not retaining the full url when saving the individual pages and so when I attempted to retry all status code 503s the urls were not valid. I adjusted the script and now the process will keep the full data in the case a retry is necessary.
 
 ## Data Processing
 
@@ -211,8 +210,6 @@ df.loc[(df.tag_count <= 20) & (df.tag_count >= 15), 'tag_bucket'] = "15-20"
 ### Mean & Standard Deviation of Bucketed Tags
 
 ![splash](https://github.com/andrewmmeans/modeling_the_modelers/blob/master/images/output_19_0.png)
-
-
 
 ## Hypothesis
 
