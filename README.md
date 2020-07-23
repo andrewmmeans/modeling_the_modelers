@@ -316,3 +316,4 @@ I would like to further analyze this dataset, I believe that I have barely scrat
 * Clustering models based on attributes
 * Sentiment anlysis on comments
 * Price prediction given model attributes
+* Time series analysis given date attributes
