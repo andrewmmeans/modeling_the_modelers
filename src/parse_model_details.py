@@ -200,13 +200,12 @@ def main():
         batch = success_files[i*chunk_size:(i+1)*chunk_size]
         batches.append(batch)
     for i, batch in enumerate(batches):
-        if i > 7:
+        if i > 48:
             try:
                 process_files(batch, batch_num=i)
             except Exception as e:
                 print(f'Batch {i} failed')
                 print(e)
-
 
 if __name__ == '__main__':
     main()
