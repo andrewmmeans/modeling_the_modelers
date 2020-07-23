@@ -1,6 +1,6 @@
 # Modeling the Modelers
 
-PIC
+![splash](https://github.com/andrewmmeans/modeling_the_modelers/blob/master/images/main_page.png?raw=true)
 
 ## Introduction
 
@@ -44,11 +44,13 @@ Working with a dataset that hasn't been analyzed before seemed very appealing to
 
 ### Lessons Learned
 
-Not everything a site displays is true, most categories contained no more than 277 pages of models, despite claiming 3000+. I guessing that they limit the number of models viewable for users who are not signed into their website. I intent to test this in the future by making an account and observing if more pages are viewable.
+Not everything a site displays is true, most categories contained no more than 277 pages of models, despite claiming 3000+. I guessing that they limit the number of models viewable for users who are not signed into their website. I intent to test this in the future by making an account and observing if more pages are viewable. After deduplication the original even distribution of categories became imbalanced.
 
-<img></img>
 
-If you fail to except, try try again.
+![max_pages](https://github.com/andrewmmeans/modeling_the_modelers/blob/master/images/or_do_they.png?raw=true)
+
+
+*If you fail to except, try try again.*
 
 I also made the mistake of not retaining the full url when saving the individual pages and so when I attempted to retry all status code 503s the urls were not valid. Some adjustments were made and now the process will retain the full data in the case where retries need to be performed.
 
