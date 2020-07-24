@@ -44,7 +44,7 @@ Working with a dataset that hasn't been analyzed before seemed very appealing to
 
 ### Lessons Learned
 
-Not everything a site displays is true, most categories contained no more than 277 pages of models, despite claiming 3000+. I guessing that they limit the number of models viewable for users who are not signed into their website. I intent to test this in the future by making an account and observing if more pages are viewable. After deduplication the original even distribution of categories became imbalanced.
+Not everything a site displays is true, most categories contained no more than 277 pages of models, despite claiming 3000+. It is possible cgtrader limits the number of models viewable for users who are not signed into their website. I intent to test this in the future by making an account and observing if more pages are viewable. After model deduplication, what was an even distribution of categories became imbalanced.
 
 ![max_pages](https://github.com/andrewmmeans/modeling_the_modelers/blob/master/images/or_do_they.png?raw=true)
 
