@@ -200,6 +200,7 @@ df.head()
 
 ![splash](https://github.com/andrewmmeans/modeling_the_modelers/blob/master/images/output_12_0.png)
 
+![splash](https://github.com/andrewmmeans/modeling_the_modelers/blob/master/images/output_29_0.png)
 
 Here we break the tags into two buckets: [5, 10] and [15, 20] tag_counts respectively
 
@@ -211,6 +212,8 @@ df.loc[(df.tag_count <= 20) & (df.tag_count >= 15), 'tag_bucket'] = "15-20"
 ### Mean & Standard Deviation of Bucketed Tags
 
 ![splash](https://github.com/andrewmmeans/modeling_the_modelers/blob/master/images/output_19_0.png)
+
+
 
 ## Hypothesis
 
