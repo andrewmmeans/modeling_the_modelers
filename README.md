@@ -14,6 +14,7 @@ cgtrader is an online marketplace for 3d-models. Users can buy and sell models o
 * [Exploratory Data Analysis](#exploratory-data-analysis)
 * [Hypothesis](#hypothesis)
 * [Conclusion](#conclusion)
+* [Experimental](#experimental)
 * [Future Work](#future-work)
 
 ## Technologies
@@ -272,6 +273,10 @@ And so we reject the Null Hypothesis which stated that there is no significant d
 ## Conclusion
 
 Upon visitation of a webpage on which a model contains between 5 and 10 tags we would expect to see fewer views than of another webpage on which a model contains between 15 and 20 tags. Tags can be viewed as additional paths to finding a given model and while it matches our intuition, it does not necessarily hold for extreme samples. Some models contained tag counts greater than 90 and had little views, so there appears to be a diminishing return. Further examination of binned tag counts versus views could lead to interesting results.
+
+## Experimental
+
+[Natural Language Processing w/ XGBoost](/nlp.md)
 
 ## Future Work
 
