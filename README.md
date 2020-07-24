@@ -213,7 +213,8 @@ df.loc[(df.tag_count <= 20) & (df.tag_count >= 15), 'tag_bucket'] = "15-20"
 
 ## Hypothesis
 
-![formula](https://render.githubusercontent.com/render/math?math=H_0=) The number of views tag counts from the [5,10] bin does not differ from the [15,20] tag count bin.
+![formula](https://render.githubusercontent.com/render/math?math=H_0=) The number of views from tag counts in the [5,10] bin does not differ from the [15,20] tag count bin.
+
 ![formula](https://render.githubusercontent.com/render/math?math=H_A=) The number of views differs
 
 ![formula](https://render.githubusercontent.com/render/math?math=\alpha=0.2)
@@ -234,7 +235,7 @@ print(f"T-Statistic: {tstat}, P-Value: {pval}, P < alpha: {pval < alpha}")
 
 
 ```python
-# The two-sample K–S test is one of the most useful and general nonparametric methods for comparing two samples, 
+# The two-sample Kolmogorov-Smirnov test is one of the most useful and general nonparametric methods for comparing two samples, 
 # as it is sensitive to differences in both location and shape of the empirical cumulative distribution functions of the two samples. 
 
 stats.ks_2samp(five_to_ten, fifteen_to_twenty, alternative='less')
