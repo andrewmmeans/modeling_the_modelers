@@ -217,7 +217,7 @@ df.loc[(df.tag_count <= 20) & (df.tag_count >= 15), 'tag_bucket'] = "15-20"
 
 ![formula](https://render.githubusercontent.com/render/math?math=H_A=) The number of views differs
 
-![formula](https://render.githubusercontent.com/render/math?math=\alpha=0.2)
+  ![formula](https://render.githubusercontent.com/render/math?math=\alpha=0.2)
 
 ### Perform a T-Test to calculate the T-Statistic and evaluate for the p-value
 
